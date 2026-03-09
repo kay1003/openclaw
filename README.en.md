@@ -1,36 +1,51 @@
-# work
+# OpenClaw Automation Learning & Training
 
-#### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
+## Project Positioning
+This repository is designed to build and iterate an **OpenClaw automation learning and training system** with an engineering-first approach.
 
-#### Software Architecture
-Software architecture description
+The focus is not one-off scripts, but a reusable and measurable capability stack:
+- Automated task orchestration (scheduling, triggering, reporting)
+- Standardized and versioned Prompt/Skill assets
+- Runtime data collection and effectiveness evaluation
+- Continuous training loop (execution → feedback → optimization)
 
-#### Installation
+## Core Capabilities
+- **Automation Pipelines**: Daily automation workflows (reports, backups, content pipelines)
+- **Skill Engineering**: Skill installation, adaptation, composition, and evolution
+- **Operational Memory**: Structured persistence of key configs, practices, and decisions
+- **Multi-Environment Deployment**: Migration and recovery across Linux/macOS/cloud hosts
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## Key Directories
+- `automation/`: automation scripts and scheduled jobs
+- `skills/`: reusable skills and extensions
+- `memory/`: operational memory and long-term knowledge
+- `duoduo/`: business-case assets and generated outputs (retain as needed)
+- `backups/`: backup and migration artifacts
 
-#### Instructions
+## Engineering Principles
+1. **Traceable**: critical changes are logged and auditable
+2. **Recoverable**: fast migration and rollback for config/state
+3. **Measurable**: evaluate by token usage, success rate, latency, etc.
+4. **Risk-Minimized**: incremental changes over high-risk big-bang operations
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## Use Cases
+- OpenClaw personal assistant operations automation
+- Agent workflow training and iterative optimization
+- Scripted content generation pipelines
+- Cross-server / cross-platform migration and recovery
 
-#### Contribution
+## Quick Start
+1. Configure OpenClaw gateway and model credentials
+2. Initialize jobs under `automation/`
+3. Install/load skills based on your business goals
+4. Enable cron, validate on small scale, then scale up
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+## Internationalization
+This repository follows bilingual documentation rules:
+- Chinese: `README.md`
+- English: `README.en.md`
 
+Please keep both README files aligned in structure and meaning.
 
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## License
+This repository follows the root `LICENSE` file.

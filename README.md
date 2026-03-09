@@ -1,39 +1,51 @@
-# work
+# OpenClaw 自动化学习与训练工程
 
-#### 介绍
-{**以下是码云平台说明，您可以替换此简介**
-码云是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用码云实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+## 项目定位
+本仓库用于构建和迭代 **OpenClaw 自动化学习与训练体系**，聚焦于可复用、可验证、可持续优化的 Agent 工作流。
 
-#### 软件架构
-软件架构说明
+目标不是单次脚本执行，而是沉淀一套工程化能力：
+- 自动化任务编排（定时、触发、回执）
+- Prompt/Skill 的标准化与版本化
+- 运行数据回收与效果评估
+- 训练闭环（执行 → 反馈 → 优化）
 
+## 核心能力
+- **Automation Pipelines**：支持日常任务自动化（如日报、备份、内容生产流程）
+- **Skill Engineering**：技能安装、适配、组合与演进
+- **Operational Memory**：关键配置、经验与策略的结构化沉淀
+- **Multi-Env Deployment**：面向 Linux/macOS/云主机等环境的迁移与恢复
 
-#### 安装教程
+## 目录说明（关键）
+- `automation/`：自动化脚本与定时任务
+- `skills/`：可复用技能与扩展能力
+- `memory/`：过程记忆与长期沉淀
+- `duoduo/`：业务案例素材与生成结果（按需保留）
+- `backups/`：备份与迁移产物
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 工程原则
+1. **可追溯**：所有关键改动有日志、有记录
+2. **可恢复**：配置与策略可快速迁移/回滚
+3. **可量化**：以 token、任务成功率、时延等指标评估
+4. **最小风险**：优先小步迭代，避免一次性高风险操作
 
-#### 使用说明
+## 适用场景
+- OpenClaw 私人助手自动化运维
+- Agent 工作流训练与迭代
+- 内容生成链路（脚本化批处理）
+- 跨服务器/跨平台迁移与恢复
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 快速开始
+1. 配置 OpenClaw 网关与模型凭据
+2. 初始化 `automation/` 中的任务脚本
+3. 根据业务目标加载/安装 `skills/`
+4. 启用 cron，进行小规模验证后再扩大执行范围
 
-#### 参与贡献
+## 国际化说明
+本仓库遵循双语文档规范：
+- 中文说明：`README.md`
+- 英文说明：`README.en.md`
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+更新文档时请保持两份 README 的结构与语义一致。
 
-
-#### 码云特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## 许可证
+本仓库默认沿用项目根目录 `LICENSE`。
