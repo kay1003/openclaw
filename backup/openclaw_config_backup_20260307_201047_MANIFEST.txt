@@ -1,5 +1,0 @@
-OpenClaw Config Backup (Ultra Slim + Agent Config)
-Generated: 2026-03-07T20:10:47+08:00
-Included agent files:
-- /home/kang/.openclaw/agents/main/agent/auth-profiles.json
-- /home/kang/.openclaw/agents/main/sessions/sessions.json
