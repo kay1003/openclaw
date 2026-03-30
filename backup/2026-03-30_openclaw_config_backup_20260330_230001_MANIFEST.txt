@@ -1,0 +1,5 @@
+OpenClaw Nightly Config Backup
+Generated: 2026-03-30T23:00:01+08:00
+DateTag: 2026-03-30
+Included: core OpenClaw config + full skills files + memory + duoduo traits + email digest config
+Excluded: videos, media cache, git dirs, large artifacts
